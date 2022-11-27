@@ -1,0 +1,14 @@
+{
+  "name": "@xia0hj/eslint-config",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "xia0hj",
+  "license": "ISC",
+  "peerDependencies": {
+    "typescript": "^4.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^7.2.0"
+  }
+}
