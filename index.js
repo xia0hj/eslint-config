@@ -132,7 +132,6 @@ module.exports = {
         beforeColon: false, // 禁止在对象字面量的键和冒号之间存在空格
         afterColon : true, // 要求在对象字面量的冒号和值之间存在至少有一个空格
         mode       : 'strict', // 强制在冒号前后只有一个空格
-        align      : 'colon', // 要求对象字面量中的冒号和值都水平对齐
       },
     ],
 
@@ -164,16 +163,6 @@ module.exports = {
 
     // 禁止行尾空格
     'no-trailing-spaces': 'warn',
-
-    // 大括号内换行符
-    'object-curly-newline': [
-      'warn', {
-        ObjectExpression : { multiline: true },
-        ObjectPattern    : { multiline: true },
-        ImportDeclaration: { multiline: true, minProperties: 5 },
-        ExportDeclaration: { multiline: true, minProperties: 5 },
-      },
-    ],
 
     // 大括号内前后空格，如果是数组则不需要空格
     'object-curly-spacing': ['warn', 'always', { arraysInObjects: false }],
