@@ -1,14 +1,21 @@
 {
   "name": "@xia0hj/eslint-config",
-  "version": "0.0.1",
-  "description": "",
+  "version": "1.0.0",
+  "description": "My custom eslint config.",
   "main": "index.js",
   "author": "xia0hj",
-  "license": "ISC",
-  "peerDependencies": {
+  "license": "MIT",
+  "devDependencies": {
     "typescript": "^4.0.0",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
-    "eslint": "^7.2.0"
-  }
+    "eslint": "^8.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "url": "https://github.com/xia0hj/eslint-config"
+  },
+  "homepage": "https://github.com/xia0hj/eslint-config"
 }

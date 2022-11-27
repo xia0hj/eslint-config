@@ -5,7 +5,6 @@ module.exports = {
     node   : true,
   },
   extends: [
-    'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
   ],
   overrides    : [],
@@ -21,7 +20,7 @@ module.exports = {
    */
   rules: {
     // 2格缩进
-    'indent': [
+    '@typescript-eslint/indent': [
       'warn',
       2,
     ],
@@ -78,7 +77,7 @@ module.exports = {
     'no-undef': 'error',
 
     // 警告出现未使用过的变量
-    'no-unused-vars': 'warn',
+    '@typescript-eslint/no-unused-vars': 'warn',
 
     // 禁止在变量定义之前使用它们
     'no-use-before-define': 'warn',
